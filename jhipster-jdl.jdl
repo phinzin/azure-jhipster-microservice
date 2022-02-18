@@ -1,0 +1,6 @@
+
+entity Todo {
+	item String,
+    description String,
+    completed Boolean
+}
