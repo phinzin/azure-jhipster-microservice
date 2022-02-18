@@ -42,6 +42,8 @@
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
     "languages": ["en", "de"],
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "azureSpringCloudAppName": "gateway",
+    "azureSpringCloudDeploymentType": "local"
   }
 }
