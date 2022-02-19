@@ -44,6 +44,8 @@
     "languages": ["en", "de"],
     "enableGradleEnterprise": false,
     "azureSpringCloudAppName": "gateway",
-    "azureSpringCloudDeploymentType": "local"
+    "azureSpringCloudDeploymentType": "local",
+    "entities": ["Todo"],
+    "lastLiquibaseTimestamp": 1645239062000
   }
 }
