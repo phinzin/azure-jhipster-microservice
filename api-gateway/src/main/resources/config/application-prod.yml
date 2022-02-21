@@ -61,8 +61,8 @@ spring:
     password:
   r2dbc:
     url: r2dbc:mysql://testsvr.mysql.database.azure.com:3306/gateway?useUnicode=true&characterEncoding=utf8&useSSL=true&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
-    username: mysqladmin@testsvr
-    password: Welcome123
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
   thymeleaf:
     cache: true
   sleuth:
